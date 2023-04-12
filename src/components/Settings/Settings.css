@@ -1,0 +1,106 @@
+.container {
+	display: flex;
+	justify-content: end;
+	margin: 2rem 0;
+}
+
+.settings-btn {
+	padding: 8px 16px;
+	font-weight: 600;
+	background: transparent;
+	border-radius: 5px;
+	border: 1px solid #70707038;
+	cursor: pointer;
+}
+
+.settings-btn i {
+	color: #116fed;
+	margin-right: 5px;
+}
+
+ul {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+li {
+	font-size: 0.9rem;
+}
+
+.btn,
+.btn-isActive {
+	background: transparent;
+	border-radius: 5px;
+	border: 1px solid #70707048;
+	/* cursor: grab; */
+	cursor: default;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+	padding: 5px;
+	padding-right: 48px;
+}
+
+/* .btn:active,
+.btn-isActive:active {
+	cursor: grabbing;
+} */
+
+.btn {
+	padding-left: 28px;
+}
+
+.btn-isActive {
+	border-left: 5px solid #136fed;
+	padding-left: 24px;
+}
+
+.collapse {
+	overflow: hidden;
+}
+
+h4 {
+	font-weight: bold;
+	color: #1d1a1a;
+}
+
+.toggle {
+	padding: 1rem 2rem;
+	border: 1px solid #eaeaea;
+	border-radius: 5px;
+}
+
+.action-btn {
+	display: flex;
+	justify-content: end;
+}
+
+.close-btn {
+	margin-right: 10px;
+	padding: 5px 1rem;
+	background: transparent;
+	border-radius: 5px;
+	border: 1px solid gray;
+	color: #136fed;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.submit-btn {
+	margin-right: 10px;
+	padding: 7px 20px;
+	margin-right: 40px;
+	background: #116fed;
+	border-radius: 5px;
+	border: 1px solid gray;
+	color: white;
+	cursor: pointer;
+}
+
+.submit-btn:hover {
+	background: rgb(2, 101, 215);
+}
+
+.close-btn:hover {
+	background: rgb(251, 251, 252);
+}

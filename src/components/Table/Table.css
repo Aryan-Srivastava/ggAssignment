@@ -1,0 +1,35 @@
+.table-container {
+	margin-top: 2rem;
+}
+
+table {
+	border-radius: 5px;
+	width: 100%;
+}
+
+th {
+	padding: 1rem 0;
+	border-bottom: 2px solid #70707038;
+}
+
+td {
+	padding: 6px 0;
+	border-bottom: 2px solid #70707038;
+	color: #1d1a1a;
+	text-align: center;
+	overflow: hidden;
+}
+
+/* 
+td:nth-child(2) {
+	text-align: start;
+} */
+
+p, td {
+	font-size: 14px;
+}
+
+i, p {
+	color: #707070;
+	cursor: pointer;
+}
